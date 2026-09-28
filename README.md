@@ -29,7 +29,7 @@ npm start
 No Node install needed. Just run it with a TTY (`-it`):
 
 ```bash
-docker run --rm -it docker/moby-escape
+docker run --rm -it -v moby-escape:/data docker/moby-escape
 ```
 
 To build the image yourself: `docker build -t moby-escape .` or for cross-platform: `docker buildx build --platform linux/amd64,linux/arm64 -t moby-escape .`
