@@ -1,0 +1,23 @@
+{
+  "name": "moby-escape",
+  "version": "1.0.0",
+  "description": "MOBY: Escape the Sandbox - a Game Boy Color-style Docker RPG for the terminal",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/moby-escape.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@opentui/core": "^0.5.12"
+  },
+  "engines": {
+    "node": ">=26.4.0"
+  },
+  "bin": {
+    "moby-escape": "bin/moby-escape.js"
+  }
+}
